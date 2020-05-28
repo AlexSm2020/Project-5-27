@@ -83,3 +83,24 @@ p {
     margin-top: -225px;
     
 }
+
+#logInHere {
+
+    color: red;
+}
+.header a {
+    color: seashell;
+    background-color: seashell;
+}
+
+label {
+
+    color: white;
+}
+h2 {
+
+    color: white;
+}
+p {
+    color: seashell;
+}
