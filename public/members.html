@@ -2,30 +2,43 @@
 <html lang="en">
 
 <head>
-  <title>Passport Authentication</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
-  <link href="stylesheets/style.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="stylesheets/members.css" rel="stylesheet">
+    <title>Apply Abroad</title>
 </head>
 
-<body>
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/logout">
-        Logout
-      </a>
+<header>
+    <div class="menu-toggle" id="hamburger">
+        <i class="fas fa-bars"></i>
     </div>
-  </div>
-</nav>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <h2>Welcome <span class="member-name"></span></h2>
+    <div class="overlay"></div>
+    <div class="container">
+        <nav>
+            <h1 class="brand"><a href="index.html">Ap<span>ply Abro</span>ad</a></h1>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./aboutUS.html">About</a></li>
+                <li><a class="navbar-brand" href="/logout">Logout</a></li>
+                <li><a href="./searchUniversities.html">Search</a></li>
+                <li><a href="./contactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h1 style="color:white; margin-top: 30px;">Welcome <span class="member-name"></span></h1>
+          <h1 style="color:white; margin-top: 30px;">Thanks for choosing Apply Abroad.</h1>
+          <h1 style="color:white; margin-top: 30px;">One of our representatives will contact you soon.</h1>
+          <h1 style="color:white; margin-top: 30px;">Feel free to navigate through our <a style="color:red;" href="./searchUniversities.html">data base</a> and <a style="color:red;" href="./contactUs.html">contact</a> us if you have any questions!</h1>
+        </div>
       </div>
     </div>
-  </div>
+</header>
+
+<body>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/members.js"></script>
